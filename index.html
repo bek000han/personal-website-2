@@ -15,6 +15,7 @@
           <li><a href="#about">about</a></li>
           <li><a href="#experience">experience</a></li>
           <li><a href="#projects">projects</a></li>
+          <li><a href="#academic">academic</a></li>
           <li><a href="#contact">contact</a></li>
         </ul>
       </div>
@@ -31,6 +32,7 @@
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#academic" onclick="toggleMenu()">Academic</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
@@ -42,7 +44,7 @@
       <div class="section__text">
         <p class="section__text__p1">Greetings, I'm</p>
         <h1 class="title">Bekzatkhan Maulen</h1>
-        <p class="section__text__p2">B.Sc. Computer Science (Hons)</p>
+        <p class="section__text__p2">computer science undergrad</p>
         <div class="btn-container">
           <button class="btn btn-color-2" onclick="window.open('./assets/')">
             Download CV
@@ -53,23 +55,38 @@
         </div>
         <div id="socials-container">
           <img src="./assets/linkedin.png" alt="LinkedIn link" 
-          class="icon" onclick="location.href='https://linkedin.com/'">
+          class="icon" onclick="location.href='https://www.linkedin.com/in/bekzatkhanmaulen2003/'">
           <img src="./assets/github.png" alt="Github link" 
-          class="icon" onclick="location.href='https://github.com/'">
-          <img src="./assets/email.jpg" alt="Email link" 
+          class="icon" onclick="location.href='https://github.com/bek000han'">
+          <img src="./assets/email.png" alt="Email link" 
           class="icon" onclick="location.href='mailto:bekuniversity@gmail.com'">
+        </div>
+        <div class="quote-container">
+          <blockquote>"work smart - play hard"</blockquote>
         </div>
       </div>
     </section>
     <section id="about">
-      <p class="section__text__p1">Get to know me!</p>
-      <h1 class="title">About Bekz</h1>
+      <p class="section__text__p1">Who is Bekz?</p>
+      <h1 class="title">About Me</h1>
       <div class="section-container">
-        <div class="section__pic-container">
-          <img src="./assets/1200px-Godot_icon.svg.png" 
+        <div class="section__pic-container" id="gradpic">
+          <img src="./assets/menobgdef.png" 
           alt="profile picture" class="about-pic">
         </div>
         <div class="about-details-container">
+          <div class="text-container">
+            <p class="brief-container">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Ducimus pariatur perspiciatis tempora, itaque culpa error et mollitia eius placeat 
+              ipsum, sunt aliquam. Reiciendis ut nihil qui dolorum blanditiis, adipisci molestiae 
+              modi aliquid incidunt officia perspiciatis quasi dolorem magni illo ab possimus ipsum 
+              necessitatibus officiis, magnam rem temporibus molestias soluta atque.
+              <br>
+              <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti id eaque error 
+              sit nisi voluptatibus neque unde eum dolores quod dolorem quasi sapiente numquam asperiores 
+              dolor commodi sequi deserunt dolorum, reprehenderit totam facere cum esse. Nulla ea sit saepe, 
+              inventore quisquam fugit? Quibusdam, iusto quis? Aliquid iusto impedit dicta quae.</p>
+          </div>
           <div class="about-containers">
             <div class="details-container">
               <img src="./assets/briefcase.png" 
@@ -84,23 +101,54 @@
               <p>B.Sc. Computer Science (Hons)<br>University of Lancaster</p>
             </div>
           </div>
-          <div class="text-container">
-            <p class="brief-container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus pariatur perspiciatis tempora, itaque culpa error et mollitia eius placeat ipsum, sunt aliquam. Reiciendis ut nihil qui dolorum blanditiis, adipisci molestiae modi aliquid incidunt officia perspiciatis quasi dolorem magni illo ab possimus ipsum necessitatibus officiis, magnam rem temporibus molestias soluta atque.</p>
-          </div>
         </div>
       </div>
-      <img src="./assets/1200px-Godot_icon.svg.png" 
-      alt="arrow icon" class="icon-arrow" onclick="location.href='./#experience'" style="width: 4rem;">
+      <img src="./assets/down-arrow.png"
+      alt="arrow icon" class="icon-arrow" onclick="location.href='./#experience'">
     </section>
     <section id="experience">
+      <p class="section__text__p1">My professional career</p>
       <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-containers">
-            <h2 class="experience-sub-title">IT Technician Intern</h2>
+      <div class="experience-super">
+        <div class="experience-details-container">
+          <div class="about-containers" style="padding-top: 0.5rem;">
+            <div class="details-container-exp">
+              <img src="assets/diamond-symbol.png" alt="bullet point" class="icon-bullet">
+              <div class="article-container">
+                <h2 class="experience-sub-title">IT Technician Intern</h2>
+                <article>
+                  <div>
+                    <p>1st Jul 2023 - 1st Feb 2024</p>
+                    <h3>Job summary</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis officiis explicabo doloremque tenetur optio ut nobis odio voluptas rem quo labore harum voluptatibus dolorum ad sunt, saepe impedit. Nemo, facilis.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="about-containers" style="padding-top: 0.5rem;">
+            <div class="details-container-exp">
+              <img src="assets/diamond-symbol.png" alt="bullet point" class="icon-bullet">
+              <div class="article-container">
+                <h2 class="experience-sub-title">Software Developer Intern</h2>
+                <article>
+                  <div>
+                    <p>1st Jul 2023 - 1st Feb 2024</p>
+                    <h3>Job summary</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis officiis explicabo doloremque tenetur optio ut nobis odio voluptas rem quo labore harum voluptatibus dolorum ad sunt, saepe impedit. Nemo, facilis.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="section__pic-container" id="gradpic">
+          <img src="./assets/business_me.png" 
+          alt="profile picture" class="about-pic">
+        </div>
       </div>
+    <img src="./assets/down-arrow.png"
+    alt="arrow icon" class="icon-arrow" onclick="location.href='./#projects'" style="">
     </section>
     <script src="script.js"></script>
   </body>
