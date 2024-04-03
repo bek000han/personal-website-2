@@ -101,9 +101,11 @@ a:hover {
 
 .menu-links {
     position: absolute;
+    margin-top: 1rem;
     top: 100%;
     right: 0%;
-    background-color: white;
+    border-radius: 2rem;
+    background-color:#dddddd;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -267,7 +269,7 @@ section {
 
 #about {
     position: relative;
-    padding-top: 8rem;
+    padding-top: 4rem;
     margin-bottom: 4rem;
 }
 
@@ -376,6 +378,7 @@ section {
 #projects {
     position: relative;
     padding-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .color-container {
@@ -403,14 +406,120 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 5rem;
 }
 
 .about-projects-containers {
     align-self: center;
     width: 85%;
     padding-top: 2rem;
-    padding-bottom: 5rem;
     display: flex;
     gap: 2rem;
+}
+
+/* ACADEMIC SECTION STYLES */
+
+#academic {
+    position: relative;
+    padding-top: 6rem;
+    margin-bottom: 4rem;
+}
+
+.academic-super {
+    gap: 0rem;
+}
+
+.academic-text {
+    width: 70%;
+}
+
+.academic-title {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.academic-title-super {
+    display: flex;
+    padding-left: 1rem;
+}
+
+.academic-shield {
+    height: 4rem;
+    width: auto;
+    padding-top: 0.5rem;
+}
+
+.academic-super-below {
+    padding-top: 1rem;
+}
+
+.key-modules {
+    column-count: 2;
+    column-gap: 1rem;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+
+.dissertation {
+    padding-top: 0.5rem;
+    color: rgb(80, 80, 80);
+}
+
+.degree-container {
+    position: relative;
+    left: -2.5rem;
+}
+
+/* CONTACT SECTION STYLES */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    padding-top: 12rem;
+    margin-bottom: 10rem;
+}
+
+.contact-info-container-super {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(163, 163, 163) solid 0.1rem;
+    border-color: #c0c0c0;
+    background-color: #f2f2f2;
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+.contact-super {
+    flex-direction: column;
+}
+
+/* FOOTER STYLES */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
+    color: #636363;
+    font-size: small;
 }

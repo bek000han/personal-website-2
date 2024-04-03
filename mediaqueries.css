@@ -1,8 +1,237 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers {
+        flex-wrap: wrap;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
     }
     #hamb-nav {
         display: flex;
+    }
+    #experience, .experience-details-container {
+        margin-top: 2rem;
+    }
+    #profile, .section-container {
+        display: block;
+    }
+    .arrow {
+        display: none;
+    }
+    .section, .section-container {
+        height: fit-content;
+    }
+    section {
+        margin: 0 5%;
+    }
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-containers {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #contact, footer {
+        height: 40vh;
+    }
+    #profile {
+        height: 80vh;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    #profile .section__text__p2 {
+        font-size: 1rem;
+    }
+    html, body {
+        overflow-x: hidden;
+      }
+    body {
+       position: relative
+    }
+    article {
+        font-size: 1rem;
+    }
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .about-containers, .contact-info-container-super, .btn-container {
+        flex-wrap: wrap;
+    }
+    .contact-info-container {
+        margin: 0;
+    }
+    .contact-info-container p, .nav-links li a {
+        font-size: 1rem;
+    }
+    .logo {
+        font-size: 1.5rem;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .section__pic-container {
+        height: 26vh;
+        width: 26vh;
+        justify-content: center;
+    }
+    .section__text__p2 {
+        font-size: 1.25rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .text-container {
+        text-align: justify;
+    }
+    .about-pic {
+        height: 30vh;
+        width: auto;
+    }
+    .section-container {
+        height: 20vh;
+        width: auto;
+    }
+    #about{
+        padding-top: 0;
+    }
+    #about .section__pic-container {
+        height: fit-content;
+    }
+    .section__text__p1{
+        margin-top: 1rem;
+        text-align: center;
+        padding-left: 1rem;
+    }
+    .about-containers {
+        flex-direction: column;
+    }
+    .details-container {
+        align-items: center;
+        padding-top: 0.5rem;
+        position: relative;
+        left: -1.6rem;
+    }
+    .icon-arrow {
+        display: none;
+    }
+    #about {
+        margin-top: 4rem;
+        height: 125vh;
+    }
+    #about h1 {
+        margin-bottom: 1rem;
+    }
+    .experience-super {
+        flex-wrap: wrap;
+        margin-top: 0;
+        height: fit-content;
+    }
+    .icon-bullet {
+        position: relative;
+        bottom: 5.6rem;
+    }
+    .details-container-exp {
+        position: relative;
+        left: -5.1rem;
+        width: 85vw;
+    }
+    #experience {
+        height: 122vh;
+    }
+    #gradpic img {
+        height: 40vh;
+        width: auto;
+    }
+    #experience .title {
+        position: relative;
+        bottom: -1rem;
+    }
+    #experience .section__text__p1 {
+        position: relative;
+        bottom: -1rem;
+    }
+    #experience .section__pic-container {
+        position: relative;
+        left: 4.5rem;
+        padding-top: 1.5rem;
+    }
+    #experience .experience-sub-title {
+        text-align: left;
+    }
+    .projects-super {
+        flex-direction: row;
+        width: fit-content;
+    }
+    .about-projects-containers {
+        flex-direction: column;
+    }
+    .color-container, .article-container {
+        width: 80vw;
+        position: relative;
+        left: 0.05rem;
+    }
+    #projects {
+        height: fit-content;
+    }
+    #projects .details-container-exp, h2 {
+        text-align: center;
+        justify-content: center;
+    }
+    #academic .experience-super {
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+    #academic .title {
+        position: relative;
+        bottom: -2rem;
+    }
+    #academic .section__text__p1 {
+        position: relative;
+        bottom: -2rem;
+    }
+    #academic {
+        height: 115vh;
+        padding-top: 0;
+    }
+    .academic-sub-text {
+        padding-bottom: 1rem;
+    }
+    .academic-sub-text h3{
+        text-align: center;
+    }
+    .academic-subhead {
+        text-align: center;
+    }
+    .key-modules {
+        column-gap: 1rem;
+    }
+    .contact-info-container-super {
+        width: 57%;
+        margin: 1rem;
+    }
+    #contact p {
+        font-size: 0.8rem;
+    }
+    footer {
+        height: fit-content;
+        margin-bottom: 1rem;
+        margin-top: 4rem;
+    }
+    .section__text__p1 {
+        position: relative;
+        left: -0.6rem;
     }
 }
