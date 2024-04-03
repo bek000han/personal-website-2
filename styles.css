@@ -333,7 +333,7 @@ section {
 
 #experience {
     position: relative;
-    padding-top: 3rem;
+    padding-top: 5rem;
 }
 
 .experience-details-container {
@@ -371,3 +371,46 @@ section {
     flex-direction: row;
 }
 
+/* PROJECTS SECTION STYLES  */
+
+#projects {
+    position: relative;
+    padding-top: 4rem;
+}
+
+.color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(240, 240, 240);
+}
+
+.project-pic {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+}
+
+.projects-super {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.about-projects-containers {
+    align-self: center;
+    width: 85%;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    display: flex;
+    gap: 2rem;
+}
