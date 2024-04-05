@@ -269,7 +269,7 @@ section {
 
 #about {
     position: relative;
-    padding-top: 4rem;
+    padding-top: 3rem;
     margin-bottom: 4rem;
 }
 
@@ -281,6 +281,14 @@ section {
     justify-content: center;
     margin-left: 4rem;
     gap: 2.5rem;
+}
+
+#about .section-container {
+    padding-top: 0.75rem;
+}
+
+#about .about-containers {
+    padding-top: 2rem;
 }
 
 .about-details-container {
@@ -321,7 +329,7 @@ section {
 }
 
 .text-container {
-    margin-top: 2rem;
+    margin-top: 3rem;
     display: flex;
     justify-content: center;
 }
@@ -329,13 +337,14 @@ section {
 .brief-container {
     padding-top: 0rem;
     width: 90%;
+    font-size: 1.0rem;
 }
 
 /* EXPERIENCE SECTION STYLES */
 
 #experience {
     position: relative;
-    padding-top: 5rem;
+    padding-top: 4rem;
 }
 
 .experience-details-container {
@@ -345,11 +354,14 @@ section {
 }
 
 .details-container-exp {
-    /* border: solid grey 0.1rem; */
     border-radius: 2rem;
     padding: 1rem;
     display: flex;
     justify-content: center;
+}
+
+.academic-details {
+    padding-left: 3rem;
 }
 
 .icon-bullet {
@@ -410,6 +422,7 @@ section {
 
 .about-projects-containers {
     align-self: center;
+    justify-self: center;
     width: 85%;
     padding-top: 2rem;
     display: flex;
@@ -420,12 +433,13 @@ section {
 
 #academic {
     position: relative;
-    padding-top: 6rem;
-    margin-bottom: 4rem;
+    padding-top: 2rem;
+    margin-bottom: 4.5rem;
 }
 
 .academic-super {
-    gap: 0rem;
+    padding-top: 2rem;
+    gap: 0rem;  
 }
 
 .academic-text {
@@ -459,6 +473,10 @@ section {
     padding-top: 0.5rem;
 }
 
+.modules-text {
+    width: 60%;
+}
+
 .dissertation {
     padding-top: 0.5rem;
     color: rgb(80, 80, 80);
@@ -466,7 +484,7 @@ section {
 
 .degree-container {
     position: relative;
-    left: -2.5rem;
+    left: -4.5rem;
 }
 
 /* CONTACT SECTION STYLES */
@@ -476,8 +494,9 @@ section {
     justify-content: center;
     flex-direction: column;
     height: 50vh;
-    padding-top: 12rem;
-    margin-bottom: 10rem;
+    padding-top: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .contact-info-container-super {
