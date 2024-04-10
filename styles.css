@@ -372,7 +372,7 @@ section {
 }
 
 .about-containers-exp {
-    width: 95%;
+    width: 90%;
     padding-top: 3rem;
     display: flex;
     flex-direction: row;
@@ -397,11 +397,22 @@ section {
     position: relative;
     padding-top: 4rem;
     margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.project-details-container {
+    margin: 1rem;
 }
 
 .color-container {
     border-color: rgb(163, 163, 163);
     background: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
 }
 
 .project-pic {
@@ -421,10 +432,16 @@ section {
 }
 
 .projects-super {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-self: center;
+    width: 60vw;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
 
 .about-projects-containers {
     align-self: center;
@@ -440,7 +457,6 @@ section {
 #academic {
     position: relative;
     padding-top: 2rem;
-    margin-bottom: 4.5rem;
 }
 
 .academic-super {
@@ -469,7 +485,7 @@ section {
 }
 
 .academic-super-below {
-    padding-top: 1rem;
+    margin-top: 1rem;
 }
 
 .key-modules {
@@ -503,10 +519,9 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 50vh;
-    padding-top: 0rem;
-    margin-top: 7rem;
-    margin-bottom: 2rem;
+    padding-top: 8rem;
+    margin-bottom: 5rem;
+    height: fit-content;
 }
 
 .contact-info-container-super {
@@ -543,8 +558,8 @@ section {
 /* FOOTER STYLES */
 
 footer {
-    height: 26vh;
     margin: 0 1rem;
+    padding-top: 0rem;
 }
 
 footer p {

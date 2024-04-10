@@ -40,12 +40,13 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
     #contact, footer {
         height: 40vh;
     }
     #profile {
         height: 80vh;
+        padding-top: 4rem;
         margin-bottom: 0;
         padding-bottom: 0;
     }
@@ -118,6 +119,11 @@
     .about-containers {
         flex-direction: column;
     }
+
+    #about .about-details-container {
+        width: 100%;
+    }
+    
     .details-container {
         align-items: center;
         padding-top: 0.5rem;
@@ -238,9 +244,8 @@
         width: 80%;
     }
     #contact {
-        margin-top: 0;
-        padding-bottom: 0;
-        margin-bottom: 0.5rem;
+        margin-top: 14rem;
+        padding-bottom: 2rem;
     }
     .contact-info-container-super {
         width: 57%;
