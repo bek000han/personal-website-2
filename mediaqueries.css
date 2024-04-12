@@ -15,6 +15,9 @@
     #hamb-nav {
         display: flex;
     }
+    nav {
+        height: 12vh;
+    }
     #experience, .experience-details-container {
         margin-top: 2rem;
     }
@@ -159,6 +162,7 @@
     }
     #experience {
         height: 122vh;
+        padding-top: 7rem;
     }
     #gradpic img {
         height: 40vh;
@@ -196,6 +200,7 @@
     #projects {
         height: fit-content;
         margin-bottom: 1rem;
+        padding-top: 8rem;
     }
     #projects .details-container-exp, h2 {
         text-align: center;
@@ -218,7 +223,7 @@
     }
     #academic {
         height: 108vh;
-        padding-top: 0;
+        padding-top: 3rem;
         margin-bottom: 0;
         padding-bottom: 0;
     }
@@ -244,8 +249,8 @@
         width: 80%;
     }
     #contact {
-        margin-top: 14rem;
-        padding-bottom: 2rem;
+        margin-top: 25rem;
+        padding-bottom: 8rem;
     }
     .contact-info-container-super {
         width: 57%;
