@@ -173,7 +173,11 @@ section {
     display: flex;
     justify-content: center;
     gap: 4rem;
-    height: 80vh;
+    height: 75vh;
+}
+
+#profile .section {
+  padding-top: 0vh;
 }
 
 .section__pic-container {
